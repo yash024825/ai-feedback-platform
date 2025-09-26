@@ -31,6 +31,29 @@ To continuously improve teaching quality and student engagement, there is a need
 
 **Deployment:**
 - GitHub (for version control)  
-- Optional: Vercel/Netlify (frontend), Render/Heroku (backend)  
+
+## 📂 Project Structure 
+ai-feedback-platform/
+│── frontend/ # React frontend
+│── backend/ # Express backend
+│── docs/ # Reports & hackathon docs
+│── README.md
+
+## ⚙️ Installation & Setup
+
+### Clone the repository
+```bash
+git clone https://github.com/<your-username>/ai-feedback-platform.git
+cd ai-feedback-platform
+
+### Backend
+cd backend
+npm install
+npm run dev
+
+### Frontend
+cd frontend
+npm install
+npm start
 
 
